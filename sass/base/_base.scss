@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /*This is the root font-size. 1rem = 10px*/
+  /*If we set font-size using px, user cannot change the default font-size. Bad practice*/
+  /*font-size: 10px;*/
+
+  /*The default browser has 16px font-size and we want 10px*/
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
